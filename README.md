@@ -2,12 +2,14 @@
 
 This README will serve as an explainer on creating a Hivemapper fleet, adding driver accounts to your Hivemapper fleet, setting and changing token splits, and locking dashcam access to your fleet of drivers.
 
+
 ## Creating a Hivemapper Fleet
 
 A Hivemapper fleet is created at the time of [adding a driver](#adding-a-driver) to your fleet. Once a driver has been imported to your fleet, the Solana address is then tagged as a fleet manager by Hivemapper. This Solana address is the owner of the fleet, and will always have complete control over this fleet.
 
 > **Note**
 > You must use a brand new Solana address that has never connected to Hivemapper when creating a fleet.
+
 
 ## Adding a Driver
 
@@ -21,7 +23,7 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
 
 #### Adding a Driver to an Established Fleet
-If you have already added at least one driver, you'll be presented with your fleet dashboard. In the top right, you'll find a +Import Driver button. This will open a modal window in which you can enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
+If you have already added at least one driver, you'll be presented with your fleet dashboard. In the top right, you'll find a `+Add Driver` button. This will open a modal window in which you can enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
@@ -36,9 +38,10 @@ Once joined, you will now see their account in your fleet dashboard view in the 
 #### Promoting a Driver to Manager
 Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select if any of the accounts listed within your fleet should be given manager status. This will allow these accounts to add, modify and remove an [Access Control List](#access-control-list) from a dashcam.
 
+
 ## Token Splits
 
-To set the token split for a driver's account, go to the fleet dashboard view of the [Hivemapper Explorer](https://hivemapper.com/explorer). In the right column, you'll find the Edit button for each driver. Select that and the token split will now become editable. The amount that is set is the percentage of earned tokens that will be kept by the fleet operator. 
+To set the token split for a driver's account, go to the fleet dashboard view of the [Hivemapper Explorer](https://hivemapper.com/explorer). In the right column, you'll find the Edit button for each driver. Select that and the token split will now become editable. The amount that is set is the percentage of earned tokens that will be kept by the fleet manager. 
 
 For example, a token split of 100 will send all earned HONEY to the fleet manager account, while a token split of 25 will send 25% of earned HONEY to the fleet manager and 75% to the driver’s account. You can input an integer between 0 and 100, inclusively.
 
@@ -46,9 +49,10 @@ This value can be edited at any time, and will be applicable immediately to the 
 
 Each driver will be able to see the value set for the token split within the Hivemapper mobile application. 
 
+
 ## Access Control List
 
-The Access Control List (ACL) is a list of Solana addresses that you'd like to give access to connect to any dashcams within your fleet that you'd like to have permissioned access for. 
+The Access Control List (ACL) is a list of Solana addresses that you'd like to grant access to connect to any dashcams within your fleet that you'd like to lock access to. The main reason for locking access would be for ensuring that a driver does not use their own account to earn HONEY rewards while using your dashcam, as well as to deter theft (as a theif would not be able to use a locked dashcam). 
 
 #### Creating an ACL
 Within the fleet dashboard, you can select any and all members that you'd like to have added to your ACL. At the moment, only the fleet owner is able to modify who can be added to the ACL.
