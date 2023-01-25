@@ -1,6 +1,6 @@
 # Fleet Management for the Hivemapper Network
 
-This README will serve as an explainer on creating a Hivemapper fleet, adding driver accounts to your Hivemapper fleet, setting and changing token splits, locking dashcam access to your fleet of drivers, and exporting historical driving data of your fleet members.
+This README will serve as an explainer on creating a Hivemapper fleet, adding driver accounts to your Hivemapper fleet, setting and changing token splits, and locking dashcam access to your fleet of drivers.
 
 ## Creating a Hivemapper Fleet
 
