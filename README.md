@@ -18,13 +18,13 @@ If this is your first time adding a driver, you will be presented with a button 
 Once selected, you'll be able to enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
 > **Note**
-> THe driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
+> The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
 
 #### Adding a Driver to an Established Fleet
 If you have already added at least one driver, you'll be presented with your fleet dashboard. In the top right, you'll find a +Import Driver button. This will open a modal window in which you can enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
 > **Note**
-> THe driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
+> The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
 
 In both cases above, you'll then be presented a button to copy a link which is then sent to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
@@ -34,7 +34,7 @@ In both cases above, you'll then be presented a button to copy a link which is t
 Once joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
 #### Promoting a Driver to Manager
-TODO
+Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select if any of the accounts listed within your fleet should be given manager status. This will allow these accounts to add, modify and remove an [Access Control List](#access-control-list) from a dashcam.
 
 ## Token Splits
 
