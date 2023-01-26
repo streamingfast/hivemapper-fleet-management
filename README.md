@@ -11,7 +11,7 @@ A Hivemapper fleet is created at the time of [adding a driver](#adding-a-driver)
 > You must use a brand new Solana address that has never connected to Hivemapper when creating a fleet.
 
 
-## Adding a Driver
+### Adding a Driver
 
 In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and select Fleets. 
 
@@ -21,6 +21,8 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
+
+![Manager-First-Import](./screenshots/1-Manager-First-Login.png)
 
 You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
