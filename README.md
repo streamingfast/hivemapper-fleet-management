@@ -22,7 +22,7 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
 
-![Manager-First-Import](./screenshots/1-Manager-First-Login.png)
+![Manager-First-Import](./screenshots/Web - Manager/1-Manager-First-Login.png)
 
 You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
