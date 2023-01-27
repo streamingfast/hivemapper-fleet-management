@@ -12,7 +12,7 @@ if the account you are attempting to add has been seen before.
 
 It is recommended to build out your entire fleet of drivers within the Fleet Dashboard so that when you set the ACL on the dashcams, all drivers
 will be added. This will save you from having to manage multiple ACLs. In the future, you will be able to select which drivers you want (and don't want)
-to have access to specific dashcams. 
+to have access to specific dashcams.
 
 It is also recommended to create an extra account that is controlled by yourself and add it to the fleet. You should then promote this account to Manager 
 status within the Fleet Dashboard. This is a fallback measure should you lose access to your main account. This will allow you to remove the ACL from each
@@ -28,3 +28,6 @@ If you don't have anyone in a region that you can promote as manager, another re
 private keys to and add them to your fleet. If a driver loses access to their address, rather than shipping the device back and forth to reset the ACL,
 you can simply give the driver the private key of one of these extra accounts and they may map using that account. This would allow you to have no down
 time.
+
+Any manager accounts that you'd like to share control over your fleet with should be added to the fleet *before* creating ACLs. If an account is set as
+manager after the ACL has been added to the HDC, it will not have access to modify or remove the ACL on that dashcam.
