@@ -22,11 +22,11 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
 
-<img src="./images/Web-Manager/1-Manager-First-Login.png" width="50%"> <img src="./images/Web-Manager/2-Manager-Add-Driver.png" width="50%">
+<!-- <img src="./images/Web-Manager/1-Manager-First-Login.png" width="50%"> <img src="./images/Web-Manager/2-Manager-Add-Driver.png" width="50%"> -->
 
 You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
-<img src="./images/Web-Manager/1-Manager-First-Login.png" width="500">
+<!-- <img src="./images/Web-Manager/1-Manager-First-Login.png" width="500"> -->
 
 #### Adding a Driver to an Established Fleet
 If you have already added at least one driver, you'll be presented with your fleet dashboard. In the top right, you'll find a `+Add Driver` button. This will open a modal window in which you can enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
