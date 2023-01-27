@@ -22,17 +22,23 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
 
-<!-- <img src="./images/Web-Manager/1-Manager-First-Login.png" width="50%"> <img src="./images/Web-Manager/2-Manager-Add-Driver.png" width="50%"> -->
+<img src="images/Web-Manager/1-web-m-add-first-driver.png">
 
 You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
-<!-- <img src="./images/Web-Manager/1-Manager-First-Login.png" width="500"> -->
+<img src="images/Web-Manager/3-web-m-copy-link.png">
+
+This is what the driver will see
+
+<img src="images/Web-Driver/1-web-d-accept-and-sign.png">
 
 #### Adding a Driver to an Established Fleet
 If you have already added at least one driver, you'll be presented with your fleet dashboard. In the top right, you'll find a `+Add Driver` button. This will open a modal window in which you can enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet.
+
+<img serc="images/Web-Manager/4-web-m-fleet-dash.png">
 
 You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
@@ -44,6 +50,7 @@ Once joined, you will now see their account in your fleet dashboard view in the 
 #### Promoting a Driver to Manager
 Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select if any of the accounts listed within your fleet should be given manager status. This will allow these accounts to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. Soon, they will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver.
 
+<img src="images/Web-Manager/7-web-m-promote-manager.png">
 
 ## Token Splits
 
@@ -52,6 +59,8 @@ To set the token split for a driver's account, go to the fleet dashboard view of
 For example, a token split of 100 will send all earned HONEY to the fleet manager account, while a token split of 25 will send 25% of earned HONEY to the fleet manager and 75% to the driver’s account. You can input an integer between 0 and 100, inclusively.
 
 This value can be edited at any time, and will be applicable immediately to the current, and all future payout periods.
+
+<img src="images/Web-Manager/5-web-m-edit.png">
 
 Each driver will be able to see the value set for the token split within the Hivemapper mobile application. 
 
