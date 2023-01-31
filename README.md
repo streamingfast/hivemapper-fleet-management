@@ -48,7 +48,7 @@ You will then be presented a button to copy a link which you can send to the dri
 Once joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
 #### Promoting a Driver to Manager
-Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select if any of the accounts listed within your fleet should be given manager status. This will allow these accounts to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. Soon, they will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver.
+Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select if any of the accounts listed within your fleet should be given manager status. Soon, this will allow these accounts to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. They will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver. These additional functionalities for a promotoed Manager will be available soon.
 
 <img src="images/Web-Manager/7-web-m-promote-manager.png">
 
