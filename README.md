@@ -64,7 +64,7 @@ This value can be edited at any time, and will be applicable immediately to the 
 
 Each driver will be able to see the value set for the token split within the Hivemapper mobile application. 
 
-<img src="images/Phone-Driver/1-phone-d-locked-tokensplit.PNG">
+<img src="images/Phone-Driver/1-phone-d-locked-tokensplit.PNG" height="400px">
 
 ## Access Control List
 
@@ -78,7 +78,7 @@ To add the ACL to a dashcam, you must connect a mobile phone to the dashcam you'
 
 Within the Hivemapper phone application, once signed in, you should see that your account is designated as a fleet manager and you'll have a toggle with which you can choose to lock the camera. When selecting to lock it, the application will pull the ACL in its current state from Hivemapper and write the ACL to the dashcam. This means that if you were to add a new account to your fleet's ACL after this has been done, that new address **WILL NOT** be added to this dashcam's ACL.
 
-<img src="images/Phone-Manager/1-phone-m-lock-toggle.PNG">
+<img src="images/Phone-Manager/1-phone-m-lock-toggle.PNG" height="400px">
 
 #### Modifying the ACL on a Dashcam
 To modify the ACL on a dashcam, you'll first need to set the desired ACL in the fleet dashboard view of the [Hivemapper Explorer](https://hivemapper.com/explorer). Then you'll need to connect a mobile phone to the dashcam while being connected to either the fleet owner account or any account that has been set as a manager within the fleet. Note that the ACL that is already written to the dashcam will contain the list of managers and drivers that were set on the fleet *at the time when it was loaded onto the dashcam*. This means that if a driver has been promoted to manager within your fleet during the time since the ACL was loaded to the dashcam, they **will not** be able to modify the ACL (only those listed as managers at that point would have access). 
