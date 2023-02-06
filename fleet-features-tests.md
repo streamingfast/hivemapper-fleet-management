@@ -36,8 +36,7 @@ When connecting as the fleet owner, you should notice that the Hivemapper logo w
 you are the fleet manager, and you'll now see a lock dashcam toggle.
 Expected behaviour is that you'll be able to lock the dashcam. 
 You'll also notice that next to the Dashcam ID line, a small lock icon to signify that this dashcam has been locked.
-It is possible that you'll receive an error about the "shared secret". If this happens, then you must close the application and try again as the shared
-secret for authentication has become too old to be used.
+It is possible that you'll see an error saying that you must refresh your connection to see the Lock Dashcam toggle. This happens when the session from Phantom has become too old. Simply press Refresh and re-authenticate with Phantom.
 
 7) Disconnect from dashcam and reconnect using the driver account added in Task 2
 
@@ -47,7 +46,7 @@ amount that you as a driver will receive. You'll also notice that next to the Da
 
 8) Attempt to connect to dashcam using the account created in Task 5 (account that was not added to the fleet)
 
-Expected behaviour is that you will be presented with an error, asking you to connect using a different account that has access to this dashcam.
+Expected behaviour is that you will be presented with an error, asking you to connect using a different account that has access to this dashcam, and the lock icon will appear next to Dashcam ID.
 
 9) Connect to dashcam using Manager account created in Task 3
 
