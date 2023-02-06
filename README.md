@@ -7,9 +7,6 @@ This README will serve as an explainer on creating a Hivemapper fleet, adding dr
 
 A Hivemapper fleet is created at the time of [adding a driver](#adding-a-driver) to your fleet. Once a driver has been imported to your fleet, your Solana address is then tagged as a fleet manager by Hivemapper. This Solana address is the owner of the fleet, and will always have complete control over this fleet.
 
-> **Note**
-> You must use a brand new Solana address that has never connected to Hivemapper when creating a fleet.
-
 
 ### Adding a Driver
 
