@@ -12,7 +12,6 @@ A Hivemapper fleet is created at the time of [adding a driver](#adding-a-driver)
 
 In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and select Fleets. 
 
-
 > **Note**
 > When joining a fleet, the account that is joining the fleet must be signing from a different device than the one the fleet manager is using to generate the Join Fleet link. If you are trying to add accounts that you control to your own fleet, you'll have to use two different devices to do this.
 
@@ -81,6 +80,8 @@ Within the fleet dashboard, you can select any and all members that you'd like t
 To add the ACL to a dashcam, you must connect a mobile phone to the dashcam you'd like to lock, while being connected to either the fleet owner account or soon with any account that has been set as a manager within the fleet. 
 
 Within the Hivemapper phone application, once signed in, you should see that your account is designated as a fleet manager and you'll have a toggle with which you can choose to lock the camera. When selecting to lock it, the application will pull the ACL in its current state from Hivemapper and write the ACL to the dashcam. This means that if you were to add a new account to your fleet's ACL after this has been done, that new address **WILL NOT** be added to the dashcam's ACL (you would need to modify the ACL using the steps below).
+
+You may potentially receive an error, requesting for you to Refresh your connection to lock/unlock the camera. This happens when your conncetion to Phantom happened too long ago. Simply press the Refresh button, and re-authenticate with Phantom to gain access to the Lock Dashcam toggle.
 
 <img src="images/Phone-Manager/1-phone-m-lock-toggle.PNG" height="400px">
 
