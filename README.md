@@ -10,10 +10,10 @@ A Hivemapper fleet is created at the time of [adding a driver](#adding-a-driver)
 
 ### Adding a Driver
 
-In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and select Fleets. 
+In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and select Fleet Management. 
 
 > **Note**
-> When joining a fleet, the account that is joining the fleet must be signing from a different device than the one the fleet manager is using to generate the Join Fleet link. If you are trying to add accounts that you control to your own fleet, you'll have to use two different devices to do this.
+> When joining a fleet, the account that is joining the fleet must be connecting from a different device than the one the fleet manager is using to generate the Join Fleet link. If you are trying to add accounts that you control to your own fleet, you'll have to use two different devices to do this.
 
 <img src="images/Web-Manager/8-web-m-menu.png">
 
@@ -26,14 +26,14 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 
 <img src="images/Web-Manager/1-web-m-add-first-driver.png">
 
-You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
+You will then be presented a button to copy a link which you must send to the driver immediately. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
 > **Warning**
 > The driver will need to accept your request to join your fleet within 5 minutes of generating the Join Fleet link.
 
 <img src="images/Web-Manager/3-web-m-copy-link.png">
 
-This is what the driver will see
+This is what the driver will see once they've opened the link you have provided them:
 
 <img src="images/Web-Driver/1-web-d-accept-and-sign.png">
 
@@ -52,7 +52,7 @@ You will then be presented a button to copy a link which you can send to the dri
 
 Once joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
-#### Promoting a Driver to Manager
+#### [PENDING] Promoting a Driver to Manager
 Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select if any of the accounts listed within your fleet should be given manager status. Soon, this will allow these accounts to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. They will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver. These additional functionalities for a promotoed Manager will be available soon.
 
 <img src="images/Web-Manager/7-web-m-promote-manager.png">
@@ -61,7 +61,7 @@ Within the fleet dashboard of the Hivemapper Explorer, you'll be able to select 
 
 To set the token split for a driver's account, go to the fleet dashboard view of the [Hivemapper Explorer](https://hivemapper.com/explorer). In the right column, you'll find the Edit button for each driver. Select that and the token split will now become editable. The amount that is set is the percentage of earned tokens that will be kept by the fleet owner. 
 
-For example, a token split of 100 will send all earned HONEY to the fleet owner account, while a token split of 25 will send 25% of earned HONEY to the fleet owner and 75% to the driver’s account. You can input an integer between 0 and 100, inclusively.
+For example, a token split of 100 will send all earned HONEY to the fleet owner account, while a token split of 25 will send 25% of earned HONEY to the fleet owner and 75% to the driver’s account. You can input any whole number between 0 and 100, inclusively.
 
 This value can be edited at any time, and will be applicable immediately to the current, and all future payout periods.
 
@@ -73,7 +73,7 @@ Each driver will be able to see the value set for the token split within the Hiv
 
 ## Access Control List
 
-The Access Control List (ACL) is a list of Solana addresses that you'd like to grant access to connect to any dashcams within your fleet that you'd like to lock access to. The main reason for locking access would be for ensuring that a driver does not use their own account to earn HONEY rewards while using your dashcam, as well as to deter theft (as a theif would not be able to use a locked dashcam). 
+The Access Control List (ACL) is a list of Solana addresses that you'd like to grant access to connect to any dashcams within your fleet that you'd like to lock access to. The main reason for locking access would be for ensuring that a driver does not use their own account to earn HONEY rewards while using your dashcam, as well as to deter theft (as a thief would not be able to use a locked dashcam). 
 
 #### Creating an ACL
 Within the fleet dashboard, you can select any and all members that you'd like to have added to your ACL. At the moment, only the fleet owner is able to modify who can be added to the ACL.
