@@ -15,6 +15,8 @@ In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and
 > **Note**
 > When joining a fleet, the account that is joining the fleet must be signing from a different device than the one the fleet manager is using to generate the Join Fleet link. If you are trying to add accounts that you control to your own fleet, you'll have to use two different devices to do this.
 
+<img src="images/Web-Manager/8-web-m-menu.png">
+
 #### Adding Your First Driver
 If this is your first time adding a driver, you will be presented with a button to import a driver. 
 Once selected, you'll be able to enter the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
