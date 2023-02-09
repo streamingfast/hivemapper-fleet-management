@@ -29,7 +29,7 @@ Once selected, you'll be able to enter the Solana address of the driver you'd li
 You will then be presented a button to copy a link which you must send to the driver immediately. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
 > **Warning**
-> The driver will need to accept your request to join your fleet within 5 minutes of generating the Join Fleet link.
+> The driver will need to accept your request to join your fleet within 10 minutes of generating the Join Fleet link.
 
 <img src="images/Web-Manager/3-web-m-copy-link.png">
 
@@ -48,7 +48,7 @@ If you have already added at least one driver, you'll be presented with your fle
 You will then be presented a button to copy a link which you can send to the driver. The driver will then open this link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
 > **Warning**
-> The driver will need to accept your request to join your fleet within 5 minutes of generating the Join Fleet link.
+> The driver will need to accept your request to join your fleet within 10 minutes of generating the Join Fleet link.
 
 Once joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
