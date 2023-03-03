@@ -7,7 +7,7 @@
 members. The Hivemapper system wants to ensure that every account that is part of a fleet has not been used to sign in to Hivemapper before. 
 This is to ensure that any pending rewards will not be split unnecessarily.
 
-2) When adding a new driver to your fleet through the [Hivemapper Explorer](https://hivemapper.com/explorer), the system should automatically detect
+2) When adding a new driver to your fleet through the [Hivemapper Explorer](https://hivemapper.com/explorer), the system will automatically detect
 if the account you are attempting to add has been seen before. 
 
 3) It is recommended to build out your entire fleet of drivers within the Fleet Dashboard so that when you set the ACL on the dashcams, all drivers
