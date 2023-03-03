@@ -14,9 +14,9 @@ if the account you are attempting to add has been seen before.
 will be added. This will save you from having to manage multiple ACLs. In the future, you will be able to select which drivers you want (and don't want)
 to have access to specific dashcams.
 
-4) It is recommended to create at least one extra account that is controlled by yourself and add it to the fleet. You should then promote this account to Manager status within the Fleet Dashboard. This is a fallback measure should you lose access to your main account. This will allow you to remove the ACL from each dashcam, and you'll be able to start a fresh fleet at that point. Recommended to create this account under a separate 12-word seed phrase so that you don't lose access to both accounts at the same time.
+4) It is recommended to create at least one extra account that is controlled by yourself and add it to the fleet. You should then promote this account to Manager status within the Fleet Dashboard. This is a fallback measure should you lose access to your main account. This will allow you to remove the ACL from each dashcam, and you'll be able to start a fresh fleet at that point. Recommended to create this account under a separate 12-word seed phrase so that you don't lose access to both accounts at the same time. The functionality for a Manager to remove the ACL is still pending, but best to setup the Manager account now.
 
-5) Reminder that when adding a Driver to your fleet, there is a 5 minute window for them to accept the Join Fleet invitation. Be sure to be in contact with them when taking this step to ensure a smooth experience.
+5) Reminder that when adding a Driver to your fleet, there is a 10 minute window for them to accept the Join Fleet invitation. Be sure to be in contact with them when taking this step to ensure a smooth experience.
 
 6) If you have a fleet that is distributed outside of where you live, you can use the Manager status to promote any trusted drivers in a region to become
 a proxy for yourself to help with setting, modifying or removing an ACL should there be a need. (this feature will be available soon, but best to setup any Manager accounts now so that it can be used once the feature is deployed)
