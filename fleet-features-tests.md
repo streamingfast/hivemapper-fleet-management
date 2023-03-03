@@ -1,7 +1,6 @@
 # Tests to Run For Fleet Features
 
-In order to become comofortable and acquainted with the different fleet features for your Hivemapper fleet, here's a list of tasks that would be good to
-make sure you are comfortable doing. All instructions for each task can be found in the main [README document](./hivemapper-fleet-management/readme.md).
+In order to become comfortable and acquainted with the different fleet features for your Hivemapper fleet, here's a list of tasks that we recommend doing on a dummy fleet. All instructions for each task can be found in the main [README document](./hivemapper-fleet-management/readme.md).
 
 1) Create fleet (this account is the fleet owner)
 
@@ -11,13 +10,13 @@ Expected behaviour is that you'll be presented with the ability to add a driver 
 2) Add a driver to your fleet
 
 This account should be loaded on a mobile phone that can be used to pair to your dashcam.
-Reminder that you'll need to sign the Join Fleet link within 5 minutes of it being created.
-Expected behaviour is that you'll be presented with a success message, and then when going back to the Fleets tab with the fleet owner account, you'll then see the fleet dashboard.
+Reminder that you'll need to sign the Join Fleet link within 10 minutes of it being created.
+Expected behaviour is that you'll be presented with a success message, and then when going back to the Fleets tab with the fleet owner account, you'll then see the fleet dashboard with the newly added driver listed.
 
 3) Add another driver to your fleet, promote them to Manager 
 
 This account should be loaded on a mobile phone that can be used to pair to your dashcam. 
-This user's manager status will not be used for validation in this round of tests, but for the next Fleet feature tests.
+This user's manager status will not be used for validation in this round of tests, but for future Fleet feature tests.
 Expected behaviour is that the user's Whitelist and Manager checkmarks in the fleet dashboard will now both become greyed.
 
 4) Edit token split for either of the accounts in your fleet
@@ -34,8 +33,9 @@ Expected behaviour is that you should be able to connect to it without issue.
 
 When connecting as the fleet owner, you should notice that the Hivemapper logo will now look slightly different within the app. You will also see that
 you are the fleet manager, and you'll now see a lock dashcam toggle.
-Expected behaviour is that you'll be able to lock the dashcam. 
-You'll also notice that next to the Dashcam ID line, a small lock icon to signify that this dashcam has been locked.
+Expected behaviour is that you'll be able to lock the dashcam.
+
+You'll also notice that next to the Dashcam ID line, a small lock icon will appear to signify that this dashcam has been locked.
 It is possible that you'll see an error saying that you must refresh your connection to see the Lock Dashcam toggle. This happens when the session from Phantom has become too old. Simply press Refresh and re-authenticate with Phantom.
 
 7) Disconnect from dashcam and reconnect using the driver account added in Task 2
