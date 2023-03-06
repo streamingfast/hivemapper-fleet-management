@@ -72,6 +72,9 @@ Each driver will be able to see the value set for the token split within the Hiv
 
 The Access Control List (ACL) is a list of Solana addresses that you'd like to grant access to connect to any dashcams within your fleet that you'd like to lock access to. The main reason for locking access would be for ensuring that a driver does not use their own account to earn HONEY rewards while using your dashcam, as well as to deter theft (as a thief would not be able to use a locked dashcam). 
 
+> **Note**
+> When adding an ACL to a camera, you will require a live cellular connection, as well as the WiFi connection to the camera.
+
 #### Creating an ACL
 Within the fleet dashboard, you can select any and all members that you'd like to have added to your ACL. At the moment, only the fleet owner is able to modify who can be added to the ACL.
 
