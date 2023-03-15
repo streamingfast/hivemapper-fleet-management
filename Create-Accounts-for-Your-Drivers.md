@@ -13,6 +13,8 @@ It is recommended to create a fresh Phantom Wallet for your drivers, so that you
 controls your entire fleet) and the accounts of the drivers. While this is not necessary, it is a good security practice to limit any potential risks
 you can encounter. 
 
+Since you also maintain access to this account, it is recommended to have your driver remove any payments they receive in this account into a personal account that they create within Phantom. This removes the need for them to trust you won't take any funds from them, and more importantly that should either your account or the private key itself become compromised, they would have a very limited amount of exposed assets.
+
 
 #### Create a New Browser Profile
 To do this, on your laptop/desktop computer you can create a secondary profile within your browser
@@ -122,3 +124,20 @@ You should then whitelist all of the accounts you'd added, by chacking the check
 
 <img src=Create-Accounts/27.png>
 <img src=Create-Accounts/26.png>
+
+### Export Private Key of an Account
+
+Within Phantom, select the Account tab
+
+<img src=Create-Accounts/32.png height"400px">
+
+Then, select "Security & Privacy"
+
+<img src=Create-Accounts/33.png height"400px">
+
+Now select "Export Private Key"
+
+<img src=Create-Accounts/34.png height"400px">
+
+Phantom will ask you to re-enter your password and you will then be shown your private key. You can copy it now. 
+Send it to your driver either through a messaging app (ideally you would use an encrypted service like WhatsApp or Signal), but this isn't always possible.
