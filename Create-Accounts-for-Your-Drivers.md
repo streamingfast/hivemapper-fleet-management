@@ -70,7 +70,7 @@ Your new account will now be created and visible. To change the name of an accou
 
 Congratulations! You have now successfully created and renamed your accounts! Do this for as many accounts as you think you'll need.
 
-#### Add Driver to Fleet
+### Add Driver to Fleet
 
 While signed in to your Fleet Owner account on your primary browser profile, go to the [Fleet Management dashboard on Hivemapper](https://hivemapper.com/fleet-management).
 
@@ -85,7 +85,7 @@ You'll then be asked to enter the address of the driver you'd like to add.
 
 <img src=Create-Accounts/17.png>
 
-If you return to the other browser profile (where you have the Driver Accounts created), you can then click on the account name
+You return to the other browser profile (where you have the Driver Accounts created), you can then click on the account name
 
 <img src=Create-Accounts/18.png>
 
@@ -93,7 +93,7 @@ Click the "Copy" button of the account you'd like to add
 
 <img src=Create-Accounts/19.png>
 
-And paste it into the Add Driver window of your Fleet Owner account (your primary browser profile). You'll then be able to copy the link
+Paste the address into the Add Driver window of your Fleet Owner account (your primary browser profile). You'll then be able to copy the link
 
 <img src=Create-Accounts/20.png>
 
