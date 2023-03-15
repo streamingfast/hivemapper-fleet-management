@@ -9,7 +9,7 @@ Once installed, follow the instructions and safely store your 12-word recovery p
 Once Phantom is open, we can begin the import process. 
 First, click on the account icon
 
-<img src="Create-Accounts/28.png", height="250px">
+<img src=Create-Accounts/28.png, height="250">
 
 Then, select the account tab
 
