@@ -129,15 +129,15 @@ You should then whitelist all of the accounts you'd added, by chacking the check
 
 Within Phantom, select the Account tab
 
-<img src=Create-Accounts/32.png height"400px">
+<img src=Create-Accounts/32.png height="400px">
 
 Then, select "Security & Privacy"
 
-<img src=Create-Accounts/33.png height"400px">
+<img src=Create-Accounts/33.png height="400px">
 
 Now select "Export Private Key"
 
-<img src=Create-Accounts/34.png height"400px">
+<img src=Create-Accounts/34.png height="400px">
 
 Phantom will ask you to re-enter your password and you will then be shown your private key. You can copy it now. 
 Send it to your driver either through a messaging app (ideally you would use an encrypted service like WhatsApp or Signal), but this isn't always possible.
