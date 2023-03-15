@@ -9,19 +9,19 @@ Once installed, follow the instructions and safely store your 12-word recovery p
 Once Phantom is open, we can begin the import process. 
 First, click on the account icon
 
-<img src=Create-Accounts/28.png height="250px">
+<img src=Create-Accounts/28.png height="400px">
 
 Then, select the account tab
 
-<img src=Create-Accounts/29.png>
+<img src=Create-Accounts/29.png height="400px">
 
 Add an account by clicking either the + icon, or the "Add / Connect Wallet" button
 
-<img src=Create-Accounts/30.png>
+<img src=Create-Accounts/30.png height="400px">
 
 Finally, you can select "Import private key"
 
-<img src=Create-Accounts/31.png>
+<img src=Create-Accounts/31.png height="400px">
 
 At this point, you can paste in the private key that your Fleet Manager has provided you. If you wish, you can name the account anything you'd like.
 
