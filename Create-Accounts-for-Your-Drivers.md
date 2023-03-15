@@ -68,21 +68,56 @@ Your new account will now be created and visible. To change the name of an accou
 <img src=Create-Accounts/12.png>
 <img src=Create-Accounts/13.png>
 
-You have now successfully created and renamed your accounts. Do this for as many accounts as you think you'll need.
+Congratulations! You have now successfully created and renamed your accounts! Do this for as many accounts as you think you'll need.
 
 #### Add Driver to Fleet
 
-To ease your workflow, it is recommended to have both windows open on your screen
-ADD SCREENSHOT
+While signed in to your Fleet Owner account on your primary browser profile, go to the [Fleet Management dashboard on Hivemapper](https://hivemapper.com/fleet-management).
 
-While signed in to your Fleet Owner account, go to the Fleet Management dashboard on Hivemapper. ADD LINK
-Copy the address of the driver you want to add to your fleet from your secondary profile and start the Import Driver sequence ADD LINK TO OTHER DOCS
+<img src=Create-Accounts/14.png>
+<img src=Create-Accounts/15.png>
 
-ADD SCREENSHOTS
+Click on the "+ Add Driver" button
 
-#### Whitelist Driver Accounts
+<img src=Create-Accounts/16.png>
 
-Be sure to check off each driver account so that they will be added to your ACL before locking your cameras. 
-This is also a good time to set your token splits.
+You'll then be asked to enter the address of the driver you'd like to add. 
 
-ADD SCREENSHOT
+<img src=Create-Accounts/17.png>
+
+If you return to the other browser profile (where you have the Driver Accounts created), you can then click on the account name
+
+<img src=Create-Accounts/18.png>
+
+Click the "Copy" button of the account you'd like to add
+
+<img src=Create-Accounts/19.png>
+
+And paste it into the Add Driver window of your Fleet Owner account (your primary browser profile). You'll then be able to copy the link
+
+<img src=Create-Accounts/20.png>
+
+Paste the link into the secondary profile window
+
+<img src=Create-Accounts/21.png>
+
+Click on "Connect Wallet", and Phantom will now open, asking you to Connect. If you have the wrong account selected in Phantom, click on the account name at the top of Phantom, and select the proper account that you're currently trying to add to your fleet.
+
+<img src=Create-Accounts/22.png>
+
+Next, click on the green "Join" button, and Phantom will open once again, asking you to Approve the request to join the fleet.
+
+<img src=Create-Accounts/23.png>
+
+You should then see a success message! You can close this tab if you'd like, but you don't need to.
+
+<img src=Create-Accounts/24.png>
+
+Return to your primary browser profile and refresh the page. You should now see your Driver account added to your fleet.
+
+<img src=Create-Accounts/25.png>
+
+Repeat this process for as many accounts as you'd like. 
+You should then whitelist all of the accounts you'd added, by chacking the checkbox under Whitelist. As well, you should set the desired token split for each account.
+
+<img src=Create-Accounts/26.png>
