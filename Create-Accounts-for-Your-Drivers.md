@@ -120,12 +120,14 @@ Return to your primary browser profile and refresh the page. You should now see 
 <img src=Create-Accounts/25.png>
 
 Repeat this process for as many accounts as you'd like. 
-You should then whitelist all of the accounts you'd added, by chacking the checkbox under Whitelist. As well, you should set the desired token split for each account.
+You should then whitelist all of the accounts you'd added, by checking the checkbox under Whitelist. As well, you should set the desired token split for each account.
 
 <img src=Create-Accounts/27.png>
 <img src=Create-Accounts/26.png>
 
 ### Export Private Key of an Account
+
+Now that you've added these Driver accounts into your fleet, you'll need to give your drivers each access to one of those accounts. To do this, we'll export a private key so that the Driver can import that address into their Phantom Wallet. This will allow them to access the camera using their mobile phone. This account is also where their rewards will be deposited.
 
 Within Phantom, select the Account tab
 
@@ -140,4 +142,8 @@ Now select "Export Private Key"
 <img src=Create-Accounts/34.png height="400px">
 
 Phantom will ask you to re-enter your password and you will then be shown your private key. You can copy it now. 
-Send it to your driver either through a messaging app (ideally you would use an encrypted service like WhatsApp or Signal), but this isn't always possible.
+You'll now have to transmit the private key to your driver. Some options are:
+
+1. (Least secure) Send a text message or e-mail with the private key. After it has been copied by the driver, you can both delete the text or e-mail.
+2. (More secure) Use an encrypted messaging service such as Signal or WhatsApp if you each have it installed already.
+3. (Most secure) Create a locked PDF file. To do this, paste the private key into any text editor you use, and then save the file as a PDF. You can then upload it to this [Adobe site](https://www.adobe.com/acrobat/online/password-protect-pdf.html). You can upload your file to this site and then give it a password. Once it is password protected, you can delete the original file from your computer and transmit this password-protected file to your driver for them to open. 
