@@ -120,4 +120,5 @@ Return to your primary browser profile and refresh the page. You should now see 
 Repeat this process for as many accounts as you'd like. 
 You should then whitelist all of the accounts you'd added, by chacking the checkbox under Whitelist. As well, you should set the desired token split for each account.
 
+<img src=Create-Accounts/27.png>
 <img src=Create-Accounts/26.png>
