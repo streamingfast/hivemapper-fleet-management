@@ -22,37 +22,49 @@ Here is the documentation on creating new profilts for the 2 most popular browse
 This walkthru will include screenshots from Chrome.
 
 Click on your profile icon (Number 1) and then click on +Add (Number 2)
+
 <img src=Create-Accounts/01.png>
 
 Select "Continue without an account"
+
 <img src=Create-Accounts/02.png>
 
 Name your profile (and set a colour theme if you'd like to help differentiate between your two profiles)
+
 <img src=Create-Accounts/03.png>
 
 Once you have this new profile created, you can add the [Phantom extension](https://phantom.app/download).
+
 <img src=Create-Accounts/04.png>
 
 To more easily access Phantom, you can first click on the extensions icon, and then on the Pin to pin it to your browser's main view
+
 <img src=Create-Accounts/05.png>
+
 <img src=Create-Accounts/06.png>
 
 Open Phantom and select "Create a new wallet", and then safely store your 12-word recovery phrase.
+
 <img src=Create-Accounts/07.png>
 
 Once your wallet has been created, click on the Account icon in the upper-left corner of Phantom
+
 <img src=Create-Accounts/08.png>
 
 Click on the Accounts tab
+
 <img src=Create-Accounts/09.png>
 
 Create a new account, either by click on the + button, or the "Add / Connect Wallet" button.
+
 <img src=Create-Accounts/10.png>
 
 Select "Create New Account"
+
 <img src=Create-Accounts/11.png>
 
 Your new account will now be created and visible. To change the name of an account, click on the 3 dots next to that account and click on "Account Name"
+
 <img src=Create-Accounts/12.png>
 <img src=Create-Accounts/13.png>
 
