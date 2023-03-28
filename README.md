@@ -5,41 +5,60 @@ This README will serve as an explainer on creating a Hivemapper fleet, adding dr
 
 ## Creating a Hivemapper Fleet
 
+<img src="images/Web-Manager/8-web-m-menu.png">
+
 To create your Hivemapper fleet, simply click on the Fleet Management tab within the [Hivemapper Explorer](https://hivemapper.com/explorer). You'll be prompted to give your fleet a name, as well as the option to add an organization name. This is to help you categorize and organize your fleets, if you happen to be managing more than one Hivemapper fleet.
 
 Once completed, you'll be able to add the first member to your fleet!
 
-<img src="images/Web-Manager/8-web-m-menu.png">
+<img src="images/Fleet-UI/1.png">
+<img src="images/Fleet-UI/2.png">
+
 
 ### Adding a Member
+
+<img src="images/Fleet-UI/3.png">
 
 In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and select Fleet Management. 
 Now that you're in your fleet dashboard, you're ready to add your first driver. Click on the "+Add a Member" button to get started.
 You can assign them a name, to help you keep your fleet organized. Then paste in the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
+<img src="images/Fleet-UI/4.png">
 
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet. If they have connected in any way to Hivemapper with this address, it will not allow them to join your fleet, and they will need to give you a new address to be added with.
 
-<img src="images/Fleet-UI/1.png">
+<img src="images/Fleet-UI/5.png">
 
 You will then be presented a QR code, as well as a button to copy a link which you must send to the driver. THe driver can either scan the QR code on their phone, or open the link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
 > **Warning**
 > The driver will need to accept your request to join your fleet within 10 minutes of starting this step.
 
-<img src="images/Web-Manager/3-web-m-copy-link.png">
-
 This is what the driver will see once they've opened the link you have provided them:
 
-<img src="images/Web-Driver/1-web-d-accept-and-sign.png">
+<img src="images/Fleet-UI/6.png">
 
 Once they have joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
 #### [PENDING] Promoting a Driver to Manager
-Within the fleet dashboard of the Hivemapper Explorer, you'll be able to promote any driver listed within your fleet to manager status. Soon, this will allow these managers to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. They will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver. These additional functionalities for a promotoed Manager will be available soon.
+Within the fleet dashboard of the Hivemapper Explorer, you'll be able to promote any driver listed within your fleet to manager status. Soon, this will allow these managers to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. They will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver. These additional functionalities for a promotoed Manager will be available soon. To promote them, click on the blue Driver role label next to their username. This will bring up a box where you can confirm this change. At this moment, you cannot demote a member from Manager back to Driver.
 
-<img src="images/Web-Manager/7-web-m-promote-manager.png">
+<img src="images/Fleet-UI/9.png">
+
+You'll see their role change to a pink Manager tag.
+
+<img src="images/Fleet-UI/10.png">
+
+If you are managing your fleet using a mobile device, the Role status, Access status, and token split will all be accessible by clicking the blue info icon next to the username. 
+
+<img src="images/Fleet-UI/12.png">
+
+#### Adding a Member to the Access Control List
+
+By checking the checkbox under Access for the member's account, this will add their account to your ACL, which can then be set on your dashcams. See more info below on how to do this. Note that a member must be added to your ACL *before* locking your dashcam if you'd like them to have access to use the dashcam.
+
+<img src="images/Fleet-UI/7.png">
 
 ## Token Splits
 
@@ -49,7 +68,7 @@ For example, a token split of 0 will send all earned HONEY to your fleet owner a
 
 This value can be edited at any time, and will be applicable as of the next payout period.
 
-<img src="images/Web-Manager/5-web-m-edit.png">
+<img src="images/Fleet-UI/8.png">
 
 Each driver will be able to see the value set for the token split within the Hivemapper mobile application. 
 
