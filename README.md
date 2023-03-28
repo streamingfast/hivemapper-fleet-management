@@ -21,7 +21,7 @@ You can assign them a name, to help you keep your fleet organized. Then paste in
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet. If they have connected in any way to Hivemapper with this address, it will not allow them to join your fleet, and they will need to give you a new address to be added with.
 
-<img src="images/Web-Manager/1-web-m-add-first-driver.png">
+<img src="images/Fleet-UI/1.png">
 
 You will then be presented a QR code, as well as a button to copy a link which you must send to the driver. THe driver can either scan the QR code on their phone, or open the link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
