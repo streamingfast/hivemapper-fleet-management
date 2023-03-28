@@ -9,6 +9,7 @@ To create your Hivemapper fleet, simply click on the Fleet Management tab within
 
 Once completed, you'll be able to add the first member to your fleet!
 
+<img src="images/Web-Manager/8-web-m-menu.png">
 
 ### Adding a Member
 
@@ -16,7 +17,6 @@ In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and
 Now that you're in your fleet dashboard, you're ready to add your first driver. Click on the "+Add a Member" button to get started.
 You can assign them a name, to help you keep your fleet organized. Then paste in the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
-<img src="images/Web-Manager/8-web-m-menu.png">
 
 > **Note**
 > The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet. If they have connected in any way to Hivemapper with this address, it will not allow them to join your fleet, and they will need to give you a new address to be added with.
