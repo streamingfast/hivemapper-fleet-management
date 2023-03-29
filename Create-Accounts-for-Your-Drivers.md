@@ -17,8 +17,8 @@ Since you also maintain access to this account, it is recommended to have your d
 
 
 #### Create a New Browser Profile
-To do this, on your laptop/desktop computer you can create a secondary profile within your browser
-Here is the documentation on creating new profilts for the 2 most popular browsers.
+To do this, on your laptop/desktop computer you can create a secondary profile within your browser.
+Here is the documentation on creating new profiles for the 2 most popular browsers.
 [Google Chrome Documentation](https://support.google.com/chrome/answer/2364824?hl=en&co=GENIE.Platform%3DDesktop)
 [Firefox Documentation](https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles)
 This walkthru will include screenshots from Chrome.
@@ -79,13 +79,17 @@ While signed in to your Fleet Owner account on your primary browser profile, go 
 <img src=Create-Accounts/14.png>
 <img src=Create-Accounts/15.png>
 
-Click on the "+ Add Driver" button
+Set up your fleet's name and organization name.
 
-<img src=Create-Accounts/16.png>
+<img src=images/Fleet-UI/1.png>
 
-You'll then be asked to enter the address of the driver you'd like to add. 
+Once set, click on the "+Add a member" button
 
-<img src=Create-Accounts/17.png>
+<img src=images/Fleet-UI/3.png>
+
+You'll then be asked to enter the address of the driver you'd like to add, as well as assign them a nickname to help keep yourself more organized. 
+
+<img src=images/Fleet-UI/4.png>
 
 You return to the other browser profile (where you have the Driver Accounts created), you can then click on the account name
 
@@ -97,33 +101,25 @@ Click the "Copy" button of the account you'd like to add
 
 Paste the address into the Add Driver window of your Fleet Owner account (your primary browser profile). You'll then be able to copy the link
 
-<img src=Create-Accounts/20.png>
+<img src=images/Fleet-UI/5.png>
 
 Paste the link into the secondary profile window
 
 <img src=Create-Accounts/21.png>
 
-Click on "Connect Wallet", and Phantom will now open, asking you to Connect. If you have the wrong account selected in Phantom, click on the account name at the top of Phantom, and select the proper account that you're currently trying to add to your fleet.
+Click on "Connect Wallet", and Phantom will now open, asking you to Connect. If you have the wrong account selected in Phantom, click on the account name at the top of Phantom, and select the proper account that you're currently trying to add to your fleet. Then, click on the "Join" button, and Phantom will open once again, asking you to Approve the request to join the fleet.
 
-<img src=Create-Accounts/22.png>
+<img src=images/Fleet-UI/6.png>
 
-Next, click on the green "Join" button, and Phantom will open once again, asking you to Approve the request to join the fleet.
-
-<img src=Create-Accounts/23.png>
-
-You should then see a success message! You can close this tab if you'd like, but you don't need to.
-
-<img src=Create-Accounts/24.png>
+You should then see a success message! You can close this tab if you'd like.
 
 Return to your primary browser profile and refresh the page. You should now see your Driver account added to your fleet.
 
-<img src=Create-Accounts/25.png>
+<img src=images/Fleet-UI/8.png>
 
 Repeat this process for as many accounts as you'd like. 
-You should then whitelist all of the accounts you'd added, by checking the checkbox under Whitelist. As well, you should set the desired token split for each account.
+You should then check off the Access box for all of the accounts you've added. As well, you should set the desired token split for each account.
 
-<img src=Create-Accounts/27.png>
-<img src=Create-Accounts/26.png>
 
 ### Export Private Key of an Account
 
