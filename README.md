@@ -30,7 +30,7 @@ You can assign them a name, to help you keep your fleet organized. Then paste in
 
 <img src="images/Fleet-UI/5.png">
 
-You will then be presented a QR code, as well as a button to copy a link which you must send to the driver. THe driver can either scan the QR code on their phone, or open the link on their device where they have Phantom installed, and sign the requests to join your fleet.
+You will then be presented a QR code, as well as a button to copy a link which you must send to the driver. The driver can either scan the QR code on their phone, or open the link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
 > **Warning**
 > The driver will need to accept your request to join your fleet within 10 minutes of starting this step.
@@ -41,6 +41,10 @@ This is what the driver will see once they've opened the link you have provided 
 
 Once they have joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
+If you are managing your fleet using a mobile device, the Role status, Access status, and token split will all be accessible by clicking the blue info icon next to the username. 
+
+<img src="images/Fleet-UI/12.png">
+
 #### [PENDING] Promoting a Driver to Manager
 Within the fleet dashboard of the Hivemapper Explorer, you'll be able to promote any driver listed within your fleet to manager status. Soon, this will allow these managers to add, modify and remove an [Access Control List](#access-control-list) from a dashcam. They will also be able to add drivers to the fleet, to promote a driver to manager, and to change the token split for a driver. These additional functionalities for a promotoed Manager will be available soon. To promote them, click on the blue Driver role label next to their username. This will bring up a box where you can confirm this change. At this moment, you cannot demote a member from Manager back to Driver.
 
@@ -50,9 +54,6 @@ You'll see their role change to a pink Manager tag.
 
 <img src="images/Fleet-UI/10.png">
 
-If you are managing your fleet using a mobile device, the Role status, Access status, and token split will all be accessible by clicking the blue info icon next to the username. 
-
-<img src="images/Fleet-UI/12.png">
 
 #### Adding a Member to the Access Control List
 
