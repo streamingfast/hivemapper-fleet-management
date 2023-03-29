@@ -4,20 +4,20 @@ In order to become comfortable and acquainted with the different fleet features 
 
 1) Create fleet (this account is the fleet owner)
 
-This is done by connecting to the Hivemapper Explorer with your account and clicking on the Fleets tab.
-Expected behaviour is that you'll be presented with the ability to add a driver to your fleet.
+This is done by connecting to the Hivemapper Explorer with your account and clicking on the Fleet Management tab.
+Expected behaviour is that you'll be presented with the ability to name your fleet, and once named you'll see your fleet dashboard view.
 
 2) Add a driver to your fleet
 
 This account should be loaded on a mobile phone that can be used to pair to your dashcam.
 Reminder that you'll need to sign the Join Fleet link within 10 minutes of it being created.
-Expected behaviour is that you'll be presented with a success message, and then when going back to the Fleets tab with the fleet owner account, you'll then see the fleet dashboard with the newly added driver listed.
+Expected behaviour is that you'll be presented with a success message, and then when going back to the fleet dashboard with the fleet owner account, you'll then see the newly added driver listed.
 
 3) Add another driver to your fleet, promote them to Manager 
 
 This account should be loaded on a mobile phone that can be used to pair to your dashcam. 
 This user's manager status will not be used for validation in this round of tests, but for future Fleet feature tests.
-Expected behaviour is that the user's Whitelist and Manager checkmarks in the fleet dashboard will now both become greyed.
+Expected behaviour is that the user's Access checkmark and Manager role label in the fleet dashboard will now both become greyed.
 
 4) Edit token split for either of the accounts in your fleet
 
