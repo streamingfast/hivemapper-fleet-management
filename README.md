@@ -1,6 +1,6 @@
 # Fleet Management for the Hivemapper Network
 
-This README will serve as an explainer on creating a Hivemapper fleet, adding driver accounts to your Hivemapper fleet, setting and changing token splits, and locking dashcam access to your fleet of drivers.
+This README will serve as an explainer on creating a Hivemapper fleet, adding member accounts to your Hivemapper fleet, setting and changing token splits, and locking dashcam access to your fleet of members.
 
 
 ## Creating a Hivemapper Fleet
@@ -20,22 +20,22 @@ Once completed, you'll be able to add the first member to your fleet!
 <img src="images/Fleet-UI/3.png">
 
 In the [Hivemapper Explorer](https://hivemapper.com/explorer), open the menu and select Fleet Management. 
-Now that you're in your fleet dashboard, you're ready to add your first driver. Click on the "+Add a Member" button to get started.
-You can assign them a name, to help you keep your fleet organized. Then paste in the Solana address of the driver you'd like to add. The driver will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
+Now that you're in your fleet dashboard, you're ready to add your first member. Click on the "+Add a Member" button to get started.
+You can assign them a nickname, to help you keep your fleet organized. Then paste in the Solana address of the member you'd like to add. The member will need to provide this to you after they have set up their [Phantom](https://phantom.app) wallet.
 
 <img src="images/Fleet-UI/4.png">
 
 > **Note**
-> The driver must use a brand new Solana address that has never connected to Hivemapper when joining a fleet. If they have connected in any way to Hivemapper with this address, it will not allow them to join your fleet, and they will need to give you a new address to be added with.
+> The member must use a brand new Solana address that has never connected to Hivemapper when joining a fleet. If they have connected in any way to Hivemapper with this address, it will not allow them to join your fleet, and they will need to give you a new address to be added with.
 
 <img src="images/Fleet-UI/5.png">
 
-You will then be presented a QR code, as well as a button to copy a link which you must send to the driver. The driver can either scan the QR code on their phone, or open the link on their device where they have Phantom installed, and sign the requests to join your fleet.
+You will then be presented a QR code, as well as a button to copy a link which you must send to the driver. The member can either scan the QR code on their phone, or open the link on their device where they have Phantom installed, and sign the requests to join your fleet.
 
 > **Warning**
-> The driver will need to accept your request to join your fleet within 10 minutes of starting this step.
+> The member will need to accept your request to join your fleet within 10 minutes of starting this step.
 
-This is what the driver will see once they've opened the link you have provided them:
+This is what the member will see once they've opened the link you have provided them:
 
 <img src="images/Fleet-UI/6.png">
 
@@ -63,21 +63,21 @@ By checking the checkbox under Access for the member's account, this will add th
 
 ## Token Splits
 
-To set the token split for a driver's account, go to the fleet dashboard view of the [Hivemapper Explorer](https://hivemapper.com/explorer). In the right column, you'll find the the current token split for each driver. Click into the text box for the driver you'd like to change, and enter the amount that you'd like them to keep. You'll see at the top of this column that this split is denoted as DRIVER / OWNER.
+To set the token split for a member's account, go to the fleet dashboard view of the [Hivemapper Explorer](https://hivemapper.com/explorer). In the right column, you'll find the the current token split for each member. Click into the text box for the member you'd like to change, and enter the amount that you'd like them to keep. You'll see at the top of this column that this split is denoted as DRIVER / OWNER.
 
-For example, a token split of 0 will send all earned HONEY to your fleet owner account, while a token split of 25 will send 25% of earned HONEY to the driver and 75% to your fleet owner account. You can input any whole number between 0 and 100, inclusively.
+For example, a token split of 0 will send all earned HONEY to your fleet owner account, while a token split of 25 will send 25% of earned HONEY to the member and 75% to your fleet owner account. You can input any whole number between 0 and 100, inclusively.
 
 This value can be edited at any time, and will be applicable as of the next payout period.
 
 <img src="images/Fleet-UI/8.png">
 
-Each driver will be able to see the value set for the token split within the Hivemapper mobile application. 
+Each member will be able to see the value set for the token split within the Hivemapper mobile application. 
 
 <img src="images/Phone-Driver/1-phone-d-locked-tokensplit.PNG" height="400px">
 
 ## Access Control List
 
-The Access Control List (ACL) is a list of Solana addresses that you'd like to grant access to connect to any dashcams within your fleet that you'd like to lock access to. The main reason for locking access would be for ensuring that a driver does not use their own account to earn HONEY rewards while using your dashcam, as well as to deter theft (as a thief would not be able to use a locked dashcam). 
+The Access Control List (ACL) is a list of Solana addresses that you'd like to grant access to connect to any dashcams within your fleet that you'd like to lock access to. The main reason for locking access would be for ensuring that a member does not use their own account to earn HONEY rewards while using your dashcam, as well as to deter theft (as a thief would not be able to use a locked dashcam). 
 
 > **Note**
 > When adding an ACL to a camera, you will require a live cellular connection, as well as the WiFi connection to the camera.
