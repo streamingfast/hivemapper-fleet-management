@@ -39,6 +39,10 @@ This is what the member will see once they've opened the link you have provided 
 
 <img src="images/Fleet-UI/6.png">
 
+If they are on a desktop/laptop, they can click on the "Network Explorer" button to see the [Hivemapper Explorer](https://hivemapper.com/explorer) and begin to look at the map. If they are on mobile, that button will instead say "Get the app" and bring them to either the Google Play store, or the Apple App store.
+
+<img src="images/Fleet-UI/13.png">
+
 Once they have joined, you will now see their account in your fleet dashboard view in the Hivemapper Explorer.
 
 If you are managing your fleet using a mobile device, the Role status, Access status, and token split will all be accessible by clicking the blue info icon next to the username. 
